@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: rgb(178, 203, 224);
+    text-shadow: 3px 3px 5px hwb(115 8% 25%), -3px -3px 5px hwb(241 19% 21%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar ul{
+    list-style: none;
+    background-color: hsl(253, 75%, 24%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+aside{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-shadow: 3px 3px 5px hwb(245 79% 11%), -3px -3px 5px hwb(241 19% 21%);
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-shadow: 3px 3px 5px hwb(245 79% 11%), -3px -3px 5px hwb(241 19% 21%);
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+article{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-shadow: 3px 3px 5px hwb(245 79% 11%), -3px -3px 5px hwb(241 19% 21%);
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
