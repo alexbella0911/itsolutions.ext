@@ -4,7 +4,8 @@
     <title>ITSolutions</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=yes">    <title>Documents</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">    
+    <title>Documents</title>
     <link rel="icon" type="image/jpg" href="image/AMB.jpg">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/jpg" href="favicon.jpg">
@@ -12,7 +13,26 @@
 </head>   
 <body>
     <style>
-    body {
+
+*{
+    box-sizing: border-box;
+}
+html, body {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+.modal {
+  width: 50vw;
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+}
+body{
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
         font-size: 20px;
         }
     img{
@@ -143,8 +163,7 @@
                         <source src="Vid2.mp4" type="video/mp4" /> 
                 </video>
             
-            <div class="desc">Click Me! Sample of auxilliary works.</div>
-          </div>
+            </div>
         
         </a>
         
